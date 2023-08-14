@@ -1,0 +1,17 @@
+.full-screen{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-left: -11px;
+}
+
+.sidenavs{
+    width: calc(100% - 200px);
+  /*   background-color: red; */
+    max-width: 200px;
+}
+
+.navscreen{
+   /*  background-color: orange; */
+    flex: 2;
+}

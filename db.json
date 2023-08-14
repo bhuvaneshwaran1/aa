@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "bhuvan",
+      "email": "bhuvanesh940@gmail.com",
+      "password": "Bhuvan6!",
+      "confirm_password": "Bhuvan6!"
+    },
+    {
+      "fullname": "riyas",
+      "email": "riyas@gmail.com",
+      "password": "Riyas1!",
+      "confirm_password": "Riyas1!",
+      "id": 5
+    },
+    {
+      "fullname": "sd",
+      "email": "dd@g",
+      "password": "123456",
+      "confirm_password": "123456",
+      "id": 6
+    },
+    {
+      "fullname": "sd",
+      "email": "dd@g",
+      "password": "123456",
+      "confirm_password": "123456",
+      "id": 7
+    },
+    {
+      "fullname": "  f",
+      "email": "b@gma",
+      "password": "123456",
+      "confirm_password": "123456",
+      "id": 8
+    },
+    {
+      "fullname": "  f",
+      "email": "b@gma",
+      "password": "123456",
+      "confirm_password": "123456",
+      "id": 9
+    },
+    {
+      "fullname": "Mohana",
+      "email": "jghjg@gh",
+      "password": "Vss@1234",
+      "confirm_password": "Vss@1234",
+      "id": 10
+    },
+    {
+      "fullname": "Mohana",
+      "email": "jghjg@gh",
+      "password": "Vss@1234",
+      "confirm_password": "Vss@1234",
+      "id": 11
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "email": "bhuvanesh940@gmail.com",
+      "password": "Bhuvan6!"
+    }
+  ]
+}

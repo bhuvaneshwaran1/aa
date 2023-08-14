@@ -1,0 +1,33 @@
+
+.registerpage {  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+    margin:10px;
+  }
+  
+  .login-page{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 23vh;
+  }
+  
+  .inputboxes {
+    width: 100%;
+    max-width: 250px;
+    height: 20px;
+  }
+  
+  .btn-class {
+    width: 100%;
+    max-width: 250px;
+    height: 30px;
+    background-color: aqua;
+  }
+  .text-spaces{
+    margin:5px
+  }
