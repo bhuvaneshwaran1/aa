@@ -13,6 +13,7 @@ import { ProductList } from './components/ProductList';
 import { Product } from './components/Product'
 import SampleRegister from './components/SampleRegister';
 import { SidebarLayout } from './components/SidebarLayout/SidebarLayout';
+import Registeration from './components/Registeration';
 const App = () => {
   function NoMatch() {
     return (
@@ -28,18 +29,19 @@ const App = () => {
       {/*  <Sidebar> */}
       <Routes>
         {/* <Route element={<SidebarLayout />}> */}
-          <Route path="/productList" element={<ProductList />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/home" element={<Home />} />  
-          <Route path="*" element={<NoMatch />} />
-       {/*  </Route> */}
+        <Route path="/productList" element={<ProductList />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="*" element={<NoMatch />} />
+        {/*  </Route> */}
 
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<SampleRegister />} />
+        <Route path="/" element={<Login />} />
+        {/*  <Route path="/register" element={<SampleRegister />} />
+ */}        <Route path="/register" element={<Registeration />} />
       </Routes>
       {/* </Sidebar> */}
     </>
